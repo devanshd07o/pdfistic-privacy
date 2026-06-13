@@ -1,127 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PDFistic — Terms of Service</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #0f0f17;
-      color: #e0e0f0;
-      min-height: 100vh;
-      padding: 40px 20px;
-    }
-    .container {
-      max-width: 760px;
-      margin: 0 auto;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 16px;
-      padding: 48px;
-    }
-    .logo-row { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
-    .logo-row span { font-size: 22px; font-weight: 700; background: linear-gradient(135deg, #6366f1, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; color: #f0f0ff; }
-    .updated { font-size: 13px; color: rgba(255,255,255,0.4); margin-bottom: 36px; }
-    h2 { font-size: 17px; font-weight: 600; color: #a5b4fc; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid rgba(165,180,252,0.15); }
-    p, li { font-size: 15px; line-height: 1.75; color: rgba(255,255,255,0.72); }
-    ul { padding-left: 20px; margin: 8px 0; }
-    li { margin-bottom: 6px; }
-    a { color: #818cf8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .contact-box { margin-top: 36px; padding: 20px 24px; background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.2); border-radius: 12px; }
-    footer { margin-top: 40px; text-align: center; font-size: 13px; color: rgba(255,255,255,0.3); }
-    code { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 4px; font-size: 13px; }
-    .nav-links { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; }
-    .nav-links a { margin: 0 16px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - PDFistic</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #111827;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .date {
+            text-align: center;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 40px;
+            font-size: 0.95rem;
+        }
+        h2 {
+            color: #1f2937;
+            margin-top: 35px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f3f4f6;
+            font-size: 1.4rem;
+        }
+        p, li {
+            color: #4b5563;
+            font-size: 1.05rem;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .contact {
+            font-weight: 600;
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .contact:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #9ca3af;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="logo-row">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-        <rect width="32" height="32" rx="8" fill="url(#g)"/>
-        <path d="M9 8h14M9 13h14M9 18h9" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
-        <defs><linearGradient id="g" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs>
-      </svg>
-      <span>PDFistic</span>
-    </div>
-    <h1>Terms of Service</h1>
-    <p class="updated">Last updated: June 2026</p>
-    <p>Welcome to PDFistic. These Terms of Service ("Terms") govern your use of the PDFistic desktop application ("App"). By downloading, installing, or using PDFistic, you agree to be bound by these Terms.</p>
+    <div class="container">
+        <h1>Terms of Service</h1>
+        <p class="date">Last updated: June 2026</p>
 
-    <h2>1. License Grant</h2>
-    <p>PDFistic is provided as-is under the terms of its open-source license. We grant you a personal, non-exclusive, non-transferable license to use this App for lawful purposes on devices you own or control.</p>
+        <p>Welcome to <strong>PDFistic</strong>. These Terms of Service ("Terms") govern your use of the PDFistic desktop application ("App"). By downloading, installing, or using PDFistic, you agree to be bound by these Terms.</p>
 
-    <h2>2. Permitted Use</h2>
-    <p>You may use PDFistic to:</p>
-    <ul>
-      <li>Read, view, and manage PDF files locally on your device</li>
-      <li>Use built-in features like annotations, zoom, and search</li>
-      <li>Integrate with AI providers using your own API keys</li>
-      <li>Modify the App for personal use (subject to the open-source license)</li>
-    </ul>
+        <h2>1. License Grant</h2>
+        <p>PDFistic is provided under a proprietary, closed-source license. We grant you a personal, limited, non-exclusive, non-transferable, and revocable license to use this App for lawful purposes on devices you own or control.</p>
 
-    <h2>3. Prohibited Use</h2>
-    <p>You agree NOT to:</p>
-    <ul>
-      <li>Use PDFistic for illegal activities or to violate any laws</li>
-      <li>Reverse-engineer, decompile, or attempt to discover source code (except where permitted by law)</li>
-      <li>Sell, rent, lease, or sublicense the App to others without authorization</li>
-      <li>Remove or alter copyright notices or proprietary markings</li>
-      <li>Use the App to transmit malware, viruses, or harmful code</li>
-      <li>Access or use copyrighted PDFs without permission from the copyright holder</li>
-    </ul>
+        <h2>2. Permitted Use</h2>
+        <p>You may use PDFistic to:</p>
+        <ul>
+            <li>Read, view, and manage PDF files locally on your device.</li>
+            <li>Use built-in features like annotations, zoom, and search.</li>
+            <li>Integrate with AI providers using your own API keys.</li>
+        </ul>
 
-    <h2>4. Intellectual Property Rights</h2>
-    <p>PDFistic source code and design are provided under their respective open-source licenses. You retain all rights to files and documents you open in the App.</p>
-    <p>The PDFistic name, logo, and brand identity are protected. You may not use them without written permission.</p>
+        <h2>3. Prohibited Use</h2>
+        <p>You agree <strong>NOT</strong> to:</p>
+        <ul>
+            <li>Use PDFistic for illegal activities or to violate any laws.</li>
+            <li>Reverse-engineer, decompile, or attempt to discover the source code of the App.</li>
+            <li>Modify, adapt, translate, or create derivative works based on the App.</li>
+            <li>Sell, rent, lease, distribute, or sublicense the App to others without written authorization.</li>
+            <li>Remove or alter any copyright notices, watermarks, or proprietary markings.</li>
+            <li>Use the App to transmit malware, viruses, or harmful code.</li>
+        </ul>
 
-    <h2>5. Limitation of Liability</h2>
-    <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</p>
-    <ul>
-      <li>PDFistic is provided "AS IS" without warranties of any kind (express or implied)</li>
-      <li>We are not liable for any indirect, incidental, consequential, or punitive damages</li>
-      <li>We are not liable for data loss, corrupted files, or system failures caused by the App</li>
-      <li>Our total liability shall not exceed the amount you paid for the App (if any)</li>
-    </ul>
+        <h2>4. Intellectual Property Rights</h2>
+        <p>PDFistic is proprietary software. The source code, UI/UX design, logos, and brand identity are the exclusive property of PDFistic and its developer. They are protected by copyright and intellectual property laws. You may not copy or use them without written permission. However, you retain all rights to the personal files and documents you open within the App.</p>
 
-    <h2>6. Third-Party Services</h2>
-    <p>PDFistic may integrate with third-party services (Google Sign-In, AI providers, etc.). Your use of these services is governed by their respective terms and privacy policies:</p>
-    <ul>
-      <li>Google: <a href="https://policies.google.com/terms" target="_blank">policies.google.com/terms</a></li>
-      <li>Third-party AI providers: Check their respective terms</li>
-    </ul>
-    <p>We are not responsible for these services or their behavior.</p>
+        <h2>5. Limitation of Liability</h2>
+        <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</p>
+        <ul>
+            <li>PDFistic is provided "AS IS" without warranties of any kind (express or implied).</li>
+            <li>We are not liable for any indirect, incidental, consequential, or punitive damages.</li>
+            <li>We are not liable for data loss, corrupted files, or system failures caused by the App.</li>
+            <li>Our total liability shall not exceed the amount you paid for the App (if any).</li>
+        </ul>
 
-    <h2>7. No Support or Warranty</h2>
-    <p>While we may provide support or updates, we are not obligated to do so. PDFistic is maintained on a best-effort basis.</p>
+        <h2>6. Third-Party Services</h2>
+        <p>PDFistic integrates with third-party services (such as Google Sign-In and external AI providers). Your use of these services is governed by their respective terms and privacy policies:</p>
+        <ul>
+            <li><strong>Google:</strong> policies.google.com/terms</li>
+            <li><strong>AI Providers (Gemini, Llama, etc.):</strong> Check their respective official terms.</li>
+        </ul>
+        <p>We are not responsible for these external services, their availability, or their behavior.</p>
 
-    <h2>8. Termination</h2>
-    <p>Your license to use PDFistic terminates automatically if you violate these Terms. Upon termination, you must delete all copies of the App from your devices.</p>
+        <h2>7. No Support or Warranty</h2>
+        <p>While we may provide support or updates, we are not legally obligated to do so. PDFistic is maintained and updated on a best-effort basis.</p>
 
-    <h2>9. Changes to These Terms</h2>
-    <p>We may update these Terms at any time. Continued use of PDFistic after changes indicates your acceptance of the new Terms.</p>
+        <h2>8. Termination</h2>
+        <p>Your license to use PDFistic terminates automatically if you violate any of these Terms. Upon termination, you must immediately delete all copies of the App from your devices.</p>
 
-    <h2>10. Governing Law</h2>
-    <p>These Terms are governed by applicable law. Any disputes shall be resolved in accordance with the laws of India.</p>
+        <h2>9. Changes to These Terms</h2>
+        <p>We may update these Terms at any time. Continued use of PDFistic after any changes indicates your acceptance of the new Terms.</p>
 
-    <h2>11. Severability</h2>
-    <p>If any provision of these Terms is found to be unenforceable, the remaining provisions shall remain in effect.</p>
+        <h2>10. Governing Law</h2>
+        <p>These Terms are governed by applicable law. Any disputes shall be resolved in accordance with the laws of India.</p>
 
-    <div class="contact-box">
-      <h2 style="margin-top:0; border:none;">12. Contact</h2>
-      <p>Questions about these Terms? Contact us at:<br/><strong>devanshd07o@gmail.com</strong></p>
+        <h2>11. Severability</h2>
+        <p>If any provision of these Terms is found to be unenforceable, the remaining provisions shall continue in full force and effect.</p>
+
+        <h2>12. Contact Us</h2>
+        <p>Questions about these Terms? Contact us at: <br>
+        <a href="mailto:devanshd07o@gmail.com" class="contact">devanshd07o@gmail.com</a></p>
     </div>
 
-    <div class="nav-links">
-      <a href="index.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Service</a>
-    </div>
-
-    <footer>&copy; 2026 PDFistic. All rights reserved.</footer>
-  </div>
+    <footer>
+        &copy; 2026 PDFistic. All rights reserved.<br><br>
+        <span style="font-size: 0.8rem;">Privacy Policy | Terms of Service</span>
+    </footer>
 </body>
 </html>
